@@ -14,19 +14,19 @@
     transition: all 0.5s ease;
 }
 
-#map.toggled {
+#wrapper.toggled {
     padding-left: 250px;
 }
 
 #sidebar-wrapper {
     position: fixed;
     left: 250px;
-    z-index: 1000;
+    z-index: -50;
     overflow-y: auto;
     margin-left: -250px;
     width: 0;
     height: 100%;
-    background: #000;
+    background: #343a40;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -39,7 +39,7 @@
 
 #page-content-wrapper {
     padding: 15px;
-    width: 80%;
+    width: 100%;
 }
 
 #wrapper.toggled #page-content-wrapper {
